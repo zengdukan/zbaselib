@@ -1,0 +1,25 @@
+2016-4-15:
+1.增加linux下获取gateway和dns函数接口
+
+2016-4-11：
+1.增加inet网卡接口
+
+2015-11-18:
+1.修改zbaselib_socket_getipbyname接口，弃用gethostbyname改用getaddrinfo
+
+2015-9-16：
+1.增加zbaselib_pipe_close,去掉原来的close宏
+
+2015-8-3：
+1.增加pton,ntop接口
+
+2015-7-22：
+1.test增加udp组播demo，调试udp组播，一定要加网
+关“route add default gw 192.168.31.1 dev eth0”
+否则组播包发不出去
+
+2015-7-3：
+1.增加设置广播接口
+
+2015-6-2：
+1.增加管道，但是在libevent windows不能管理
